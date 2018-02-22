@@ -1,5 +1,12 @@
+“ !!!! work in progress !!!! ”
+“ I am currently working on the validation using a PDE solver “
+“ The eigenvalues seem to begin good agreement with semi-empirical method found in ESDU 75030 ”
+
+
+
+
 This Code written in Python will compute the displacement from 
-the vibration of a rectangular plate using the finite element method
+the vibration of a rectangular Kirchhoff–Love plate using the finite element method
 
 To use it, it requires the libraries numpy and matplotlib
 
@@ -15,4 +22,4 @@ Input values (e.g.. Young’Modulus, geometry, number of nodes…) are written i
 
 Run the file ‘Plate_EF.py’ to plot the displacement field
 
-Run the file ‘eigenfreq.py’ to compute the eigenfrequencies (free vibration)
+Run the file ‘eigenfreq.py’ to compute the eigenfrequencies (Natural frequencies)
