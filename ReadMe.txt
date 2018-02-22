@@ -1,4 +1,5 @@
-This Code written in Python will compute the vibration of a rectangular plate using the finite element method
+This Code written in Python will compute the displacement from 
+the vibration of a rectangular plate using the finite element method
 
 To use it, it requires the libraries numpy and matplotlib
 
