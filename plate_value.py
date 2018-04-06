@@ -1,30 +1,30 @@
 import numpy as np
 # Medium values
-c=343.
-ro=1.2
+c=343.                  # Sound celerity (in m/s)
+ro=1.2                  # Air density (in kg)
 
 # Geometrical values
-lx=0.06
-ly=0.5
+lx=0.3                 # Plate dimension along X (in m)
+ly=0.6                  # Plate dimension along Y (in m)
 
-nx=int(6)
-ny=int(52)
+nx=int(35)               # Number of nodes along X
+ny=int(65)              # Number of nodes along Y
 
 dx=lx/(nx-1)
 dy=ly/(ny-1)
 
 
-freq=500.
 
+freq=100.                # Frequency (in Hz)
 
 
 # Material values
 
 # Aluminium
-Ei=70.*10**9
-nu=0.3
-rost=2700.
-h=0.0001
+Ei=70.*10**9             # Young modulud (in Pa)
+nu=0.3                   # Poisson coefficient
+rost=2700.               # Surface density (in kg/m**2)
+h=0.0001                 # Plate thickness (in m)
 
 # Steel
 ##rost=7850
